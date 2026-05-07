@@ -1,6 +1,4 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
   "functions": {
     "api/**/*.js": {
       "runtime": "@vercel/node@3"

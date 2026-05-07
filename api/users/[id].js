@@ -15,7 +15,7 @@ const defaultData = {
 
 export default async function handler(req, res) {
   const db = new Low(adapter, defaultData)
-  const id = parseInt(req.query.id)
+  const id = parseInt(req.params.id)
   
   if (req.method === 'GET') {
     await db.read()

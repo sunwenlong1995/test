@@ -1,5 +1,5 @@
 {
-  "name": "vue3-crud-vercel",
+  "name": "vue3-crud",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -7,14 +7,14 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3",
-    "element-plus": "^2",
-    "axios": "^1",
-    "xlsx": "^0",
-    "lowdb": "^7"
+    "vue": "^3.4.21",
+    "element-plus": "^2.6.1",
+    "axios": "^1.6.7",
+    "xlsx": "^0.18.5",
+    "lowdb": "^7.0.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5",
-    "vite": "^5"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6"
   }
 }
