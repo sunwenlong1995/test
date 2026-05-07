@@ -20,7 +20,7 @@
         </template>
       </el-table-column>
     </el-table>
-    <el-dialog :title="dialogTitle" v-model="dialogVisible" width="400px">
+    <el-dialog :title="dialogTitle" :visible.sync="dialogVisible" width="400px">
       <el-form :model="formData" label-width="80px">
         <el-form-item label="名称">
           <el-input v-model="formData.name"></el-input>
