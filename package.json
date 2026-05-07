@@ -1,0 +1,9 @@
+{
+  "name": "vue3-crud-vercel",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
